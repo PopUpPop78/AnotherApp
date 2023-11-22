@@ -15,7 +15,7 @@ public class UnitTest1
         Assert.NotNull(weatherForecast);
         Assert.NotNull(weatherForecast[0]);
         Assert.IsType<int>(weatherForecast[0].TemperatureC);
-        Assert.True(weatherForecast[0].TemperatureC > 10000);
+        Assert.True(weatherForecast[0].TemperatureC > 10000, "Is TemperatureC greater than a reasonable base amount");
     }
 
     [Fact]
