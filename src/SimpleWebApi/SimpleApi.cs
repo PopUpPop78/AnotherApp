@@ -11,7 +11,7 @@ namespace SimpleWebApi
         {
             var summaries = new[]
             {
-                "Freezing Cold", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+                "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli", "I love you Rafaeli"
             };
             var forecast =  Enumerable.Range(1, 5).Select(index =>
             new WeatherForecast
